@@ -1,7 +1,9 @@
-# This is a test first post
-
-### Here we go...
-
+---
+layout: post
+title:  "First test post"
+date:   2015-09-28 11:26:43
+categories: testing 123
+---
 Ok some stuff here
 
 ```
