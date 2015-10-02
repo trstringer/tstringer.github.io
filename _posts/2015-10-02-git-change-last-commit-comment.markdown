@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Change Last Commit"
-date:   2015-09-28 11:26:43
+date:   2015-10-02 18:02
 categories: git
 ---
 We all do it, and I know I speak for myself when I see that I do this *often*.  I do my day-in-day-out work with the git command line (Git Bash).  The following commands are muscle memory at this point:
@@ -23,7 +23,7 @@ So now you've just committed with a commit message you immediately want to chang
 Let's first look at a sample git log:
 
 ```
-$ git log --oneline --decorate --graph --all
+$ git log --oneline --decorate --graph --all 
 * df423b1 (HEAD -> master) 3rd commit
 * fe9ba62 Second commit
 * 5b83de3 First commit
