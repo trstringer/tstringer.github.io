@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Change Last Commit"
+title:  "Change Last Commit Message in Git"
 date:   2015-10-02 18:02
 categories: git
 ---
