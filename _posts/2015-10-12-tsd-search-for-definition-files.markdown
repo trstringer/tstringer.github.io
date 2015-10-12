@@ -4,7 +4,7 @@ title:  "Search for TypeScript Definition Files"
 date:   2015-10-12 08:56
 categories: javascript typescript tsd vscode nodejs
 ---
-I recently wrote about how to [*add* definition files to Visual Studio code for the use of IntelliSense](http://tstringer.github.io/nodejs/vscode/visual-studio/2015/10/07/vscode-add-nodejs-intellisense.html]), but what if you simple **don't know the actual file that you need**!  The "guessing game" never works, no matter how hard you try.
+I recently wrote about how to [*add* definition files to Visual Studio code for the use of IntelliSense](http://tstringer.github.io/nodejs/vscode/visual-studio/2015/10/07/vscode-add-nodejs-intellisense.html), but what if you simple **don't know the actual file that you need**!  The "guessing game" never works, no matter how hard you try.
 
 So how can you search for a definition file then?  First off, you can browse to a [community-driven TSD file repository](http://definitelytyped.org/tsd/) and do a search there.  But what if you wanted to search through the command-line?
 
