@@ -16,11 +16,11 @@ tsd query mongo*
 
 This comes back with the following output:
 
-```
- - mongodb       / mongodb
- - mongoose-mock / mongoose-mock
- - mongoose      / mongoose
-```
+
+    - mongodb       / mongodb
+    - mongoose-mock / mongoose-mock
+    - mongoose      / mongoose
+
 
 Perfect, looks like I know I want `mongodb` at this point.  What if you want to find some information about this file?  Just use the `--info` switch:
 
@@ -30,12 +30,12 @@ tsd query mongodb --info
 
 This dumps out a bit of useful information (the current data returned can be seen below):
 
-```
- - mongodb / mongodb
-   >> MongoDB                   : github.com/mongodb/node-mongodb-native
-    @ Boris Yankov              : github.com/borisyankov
-    < mongodb (external module)
-```
+
+    - mongodb / mongodb
+      >> MongoDB                   : github.com/mongodb/node-mongodb-native
+       @ Boris Yankov              : github.com/borisyankov
+       < mongodb (external module)
+
 
 So there you have it!  Quick and easy searching for definition files directly through the TSD command line interface.
 
