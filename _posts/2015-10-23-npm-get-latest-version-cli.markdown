@@ -22,6 +22,18 @@ Simple dump your current version...
 npm -v
 ```
 
+Or in the instance that you're looking for your current version of another package (not npm itself), you can run this for local packages...
+
+```
+npm list
+```
+
+And this for global packages...
+
+```
+npm list -g
+```
+
 And then pull the info for the latest version...
 
 ```
