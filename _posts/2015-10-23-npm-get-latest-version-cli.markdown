@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Get the Latest Version of an npm Package"
+title:  "Get the Latest Version of an npm Package (without downloading/installing it)"
 date:   2015-10-23 12:00
 categories: npm node.js javascript
 ---
