@@ -22,6 +22,6 @@ $ git log --graph --decorate --all --oneline -10
 
 This gives me a nice and concise output with great information.
 
-![git log image](images/git-log.png)
+![git log image]({{ site.url }}/assets/git-log.png)
 
 Enjoy!
