@@ -30,3 +30,24 @@ ddbClient.queryDatabases('SELECT d.id, d._self FROM databases d')
 This can be handy to dump out all of the collections in your DocumentDB account.
 
 Enjoy!
+
+**EDIT**
+
+Ryan CrawCour ([@ryancrawcour](https://twitter.com/ryancrawcour)), a Program Manager on the DocumentDB team, introduced me to an ever better way to pull this information.  You can simply use `readDatabases()` and `readCollections()` to get this information in a *much* easier-to-write-and-read snippet...
+
+```javascript
+ddbClient.readDatabases()
+    .forEach(function (err, database) {
+        if (database) {
+            console.log(database.id + ' -- ' + database._self);
+            ddbClient.readCollections(database._self)
+                .forEach(function (err, collection) {
+                    if (collection) {
+                        console.log('  ' + collection.id + ' -- ' + collection._self);
+                    }
+                });
+        }
+    });
+```
+
+Thanks, Ryan! 

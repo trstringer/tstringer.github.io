@@ -36,3 +36,18 @@ ddbClient.queryDatabases('SELECT d.id FROM databases d')
 Done!  That is a list of all database names in your particular DocumentDB account.
 
 Enjoy!
+
+**EDIT**
+
+Ryan CrawCour ([@ryancrawcour](https://twitter.com/ryancrawcour)), a Program Manager on the DocumentDB team, introduced me to an ever better way to pull this information.  You can simply use `readDatabases()` to get this information in a *much* easier-to-write-and-read snippet...
+
+```javascript
+ddbClient.readDatabases()
+    .forEach(function (err, database) {
+        if (database) {
+            console.log(database.id);
+        }
+    });
+```
+
+Thanks, Ryan!
