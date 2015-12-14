@@ -4,7 +4,7 @@ title:  "Getting Input and Displaying Output in a Visual Studio Code Extension"
 date:   2015-12-14 08:00
 categories: nodejs javascript vscode 
 ---
-Visual Studio Code allows you to break the limits of what was originally possible but giving the programmer/user the ability to extend the IDE.  By writing [extensions for VS Code](https://code.visualstudio.com/docs/extensions/overview), the sky really is the limit!
+Visual Studio Code allows you to break the limits of what was originally possible by giving the programmer/user the ability to extend the IDE.  By writing [extensions for VS Code](https://code.visualstudio.com/docs/extensions/overview), the sky really is the limit!
 
 When dealing with extensions, there's no doubt you may have to work with input and (especially) output.  There are a few ways to go about this.
 
