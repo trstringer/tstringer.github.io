@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Easily Log to Azure"
+title:  "Easily Log to Azure from a Node.js Application"
 date:   2015-12-30 08:00
 categories: nodejs javascript azure azure-storage 
 ---
