@@ -9,8 +9,9 @@ Yesterday I did a [poll on twitter for how many spaces people prefer](https://tw
 Visual Studio Code is a great environment to work in, and likewise it is *extremely* customizable.  So say you want to change the tab size from 4 to 2 and persist this in VS Code...
 
 There are a couple of ways to navigate to the user settings configuration...
- 1. Through the menu bar (*File -> Preferences -> User Settings*)
- 2. (my favorite) The command palette (`>Preferences: Open User Settings` or type part of the string to find the option)
+
+1. Through the menu bar (*File -> Preferences -> User Settings*)
+2. (my favorite) The command palette (`>Preferences: Open User Settings` or type part of the string to find the option)
  
 Do either of the above operations, you'll be confronted with two editor windows: **Default Settings** and **settings.json**.  The **settings.json** file is where you'll want to make the modifications/additions to your specific user settings.  What I love about the quickness in this is that you can use the **Default Settings** window as an easy reference point.
 
