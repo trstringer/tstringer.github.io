@@ -13,10 +13,10 @@ There are a couple of ways to navigate to the user settings configuration...
 1. Through the menu bar (*File -> Preferences -> User Settings*)
 2. (my favorite) The command palette (`>Preferences: Open User Settings` or type part of the string to find the option)
  
-Do either of the above operations, you'll be confronted with two editor windows: **Default Settings** and **settings.json**.  The **settings.json** file is where you'll want to make the modifications/additions to your specific user settings.  What I love about the quickness in this is that you can use the **Default Settings** window as an easy reference point.
+Do either of the above operations, you'll be confronted with two editor windows: `Default Settings` and `settings.json`.  The `settings.json` file is where you'll want to make the modifications/additions to your specific user settings.  What I love about the quickness in this is that you can use the `Default Settings` window as an easy reference point.
 
-In my case, I want to change the tab size, so I see in the **Default Settings** that there is a default option set already: `"editor.tabSize": 4`.  To change this to 2, you wouldn't modify the **Default Settings**, but you would add this change to overlay in **settings.json**, by simple typing `"editor.tabSize": 2`.
+In my case, I want to change the tab size, so I see in the `Default Settings` that there is a default option set already: `"editor.tabSize": 4`.  To change this to 2, you wouldn't modify the `Default Settings`, but you would add this change to overlay in `settings.json`, by simple typing `"editor.tabSize": 2`.
 
-Done!  Now you have customized your VS Code experience by putting your non-default settings in **settings.json**.
+Done!  Now you have customized your VS Code experience by putting your non-default settings in `settings.json`.
 
 Enjoy!
