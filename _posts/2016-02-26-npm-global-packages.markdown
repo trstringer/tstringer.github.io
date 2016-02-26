@@ -6,7 +6,7 @@ categories: npmjs javascript nodejs
 ---
 [npm](https://www.npmjs.com/) is big and getting bigger.  Without a doubt it is simply ***the*** place to go for JavaScript packages.  One of the really cool things that can be published (creators) and consumed (users) is global packages.  A global package is typically going to be a standalone application that can be invoked outside of the scope of a packaged directory.  This gives us the ability to write and consume cross-platform applications (think: x-plat CLIs).  So cool, so powerful...
 
-... until you need to troubleshoot why your global package isn't working ...
+*... until you need to troubleshoot why your global package isn't working ...*
 
 I'm a firm believer that in order to troubleshoot computery things then you need to have a basic to advanced level of understanding of how *"things work"*.  If you've ever had to troubleshoot a non-working global package from npm (whether yours that you published and are testing, or another one you've pulled down and isn't working on your machine) then you might be stuck at **troubleshooting step0** wondering where to start looking for an/the issue.
 
