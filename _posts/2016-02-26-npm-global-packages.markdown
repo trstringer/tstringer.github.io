@@ -29,6 +29,7 @@ npm root -g
 ```
 
 My environments have the following output...
+
 - Linux: `/usr/lib/node_modules`
 - Windows: `C:\Users\<username>\AppData\Roaming\npm\node_modules`
 
@@ -37,10 +38,12 @@ My environments have the following output...
 So the above is only a partial answer for the question of *location*, as it tells us where the modules will live, but when you invoke the "bin" (this is a layer of abstraction to invoke the code) you're not actually directly hitting the module.
 
 If you want to find out what is actually being invoked you'll do the following...
+
 - Linux (bash): `whereis <bin>`
 - Windows (cmd): `where <bin>`
 
 My output looks like this...
+
 - Linux: `<bin>: /usr/bin/<bin>`
 - Windows: `C:\Users\<username>\AppData\Roaming\npm\<bin>.cmd`
 
