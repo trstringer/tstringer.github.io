@@ -20,6 +20,6 @@ I feel as though with the tech/dev/code community at its relative infancy, we ha
 
 So I created [a curated list of tech conferences on GitHub:  awesome-tech-conferences](https://github.com/tstringer/awesome-tech-conferences).  I just seeded a few conferences there for now to get a good idea of what I think this should look like (have a better thought for layout?  Create a [GitHub issue](https://github.com/tstringer/awesome-tech-conferences/issues)!), but as you can see right now it's currently a rather *"sparse"* list.
 
-That's where you come in... Know of an upcoming tech conference?  Fork the repo, make the changes, and create a pull request to get it listed.  Don't have time for that?  Create an issue with the details and somebody will make the changes.
+*That's where you come in... Know of an upcoming tech conference?*  Fork the repo, make the changes, and create a pull request to get it listed.  Don't have time for that?  Create an issue with the details and somebody will make the changes.
 
 Let's make this a one-stop-shop for people looking for upcoming tech/dev conferences!
