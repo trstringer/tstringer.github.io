@@ -5,8 +5,9 @@ date:   2016-03-20 08:00
 categories: social 
 ---
 A few days ago I tweeted asking about a list of tech conferences.  We all know how we find out about conferences today...
-1. You know of an annual conference and you look out for the next one of it
-2. You see tweets or other social media about CFPs or registrations
+
+ 1. You know of an annual conference and you look out for the next one of it
+ 2. You see tweets or other social media about CFPs or registrations
 
 But as a very "centralized" community that tech and developers tend to be, I was expecting there to already have been a list of upcoming tech conferences.  So I asked...
 
