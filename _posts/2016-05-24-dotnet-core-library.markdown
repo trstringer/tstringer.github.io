@@ -30,9 +30,9 @@ $ dotnet new
 
 When you run `dotnet new` it is *perfect*... for writing a console application.  What we need to do is turn this into a library instead of a console app.
 
-1. Remove/rename `Program.cs` (could just rename it and change the contents, but seems more natural to me to just remove the file)
-2. Add new source file for base class (or rename `Program.cs` appropriately)
-3. Add contents to file (sample below)
+ - Remove/rename `Program.cs` (could just rename it and change the contents, but seems more natural to me to just remove the file)
+ - Add new source file for base class (or rename `Program.cs` appropriately)
+ - Add contents to file (sample below)
 
 ```csharp
 namespace ILoveMath
@@ -47,7 +47,7 @@ namespace ILoveMath
 }
 ```
 
-4. We need to change the `project.json` configuration file to reflect that we are targeting NETStandard.  We can search nuget for what version we should be using by running `nuget list netstandard -pre` for our dependency.  To target .NET Core latest, our `project.json` would look something like the following...
+ - We need to change the `project.json` configuration file to reflect that we are targeting NETStandard.  We can search nuget for what version we should be using by running `nuget list netstandard -pre` for our dependency.  To target .NET Core latest, our `project.json` would look something like the following...
 
 ```json
 {
@@ -61,15 +61,15 @@ namespace ILoveMath
 }
 ```
 
-5. We can restore and build by running...
+ - We can restore and build by running...
 
 ```
 $ dotnet restore
 $ dotnet build
 ```
 
-6. And finally to package this up into a nuget package we just need to run `dotnet pack`
-7. Now that we have created the `*.nupkg` file, we can now push this to a location to reference (I created a local nuget location by running `nuget sources add -name LocalPackages -source "d:\nuget"`.  I then copy my nuget package file to this location)
+ - And finally to package this up into a nuget package we just need to run `dotnet pack`
+ - Now that we have created the `*.nupkg` file, we can now push this to a location to reference (I created a local nuget location by running `nuget sources add -name LocalPackages -source "d:\nuget"`.  I then copy my nuget package file to this location)
 
 ## Consume the library
 
