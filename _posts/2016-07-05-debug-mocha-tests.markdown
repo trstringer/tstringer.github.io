@@ -4,7 +4,7 @@ title:  "Debug Mocha Tests"
 date:   2016-07-05 08:00
 categories: nodejs mocha
 ---
-This blog post is serving just as much as personal document for me to come back to, but here is a quick little guide on one way to debug mocha tests.
+This blog post is serving just as much as personal documentation for me to come back to, but here is a quick little guide on one way to debug mocha tests.
 
 Mocha makes testing super easy with node.js, and it's a widely accepted library to handle this.  I love it, and I embrace it.  It's simple to `npm install --save-dev mocha` and then off to the races with creating your unit tests.
 
