@@ -12,4 +12,6 @@ The repository consists of only two commits.  The first commit is the out-of-the
 
 Check it out, I know I'll be using it as a quick reference to adding Redux to this implementation.  create-react-app is a great way to generate the boilerplate, highly recommended!
 
+*Note: it is not required to eject the app with `npm run eject` in order to implement Redux.  This is a personal preference step I've taken to take control of dependencies*
+
 Enjoy!
