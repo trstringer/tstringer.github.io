@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adding Redux to React App created with create-react-app"
+title:  "Adding Redux to React App Created with create-react-app"
 date:   2016-08-12 22:00
 categories: javascript reactjs react redux
 ---
