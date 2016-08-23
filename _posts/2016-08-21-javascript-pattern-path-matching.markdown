@@ -15,7 +15,7 @@ a  b  a  a  b  a
 b  b  b  a  a  a
 ```
 
-With this given patthen, the challenge is to go from the upper right corner to the bottem left corner, but the catch is that the elements should only be traversed to the right or down (no diaganol).  And also, you can only travel through elements of `a` and not `b` (those would be "blockers").  So the solution should look like this drawn out...
+With this given pattern, the challenge is to go from the upper right corner to the bottem left corner, but the catch is that the elements should only be traversed to the right or down (no diagonal).  And also, you can only travel through elements of `a` and not `b` (those would be "blockers").  So the solution should look like this drawn out...
 
 ```
 a* a  b  b  b  a
